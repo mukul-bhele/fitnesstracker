@@ -1,7 +1,33 @@
-# fitnesstracker
-Welcome to the Bellabeat data analysis case study as a part of Google Data Analytics Specialization's capstone project.
+# Activity Metrics Analysis
 ## Introduction
-Urška Sršen and Sando Mur founded Bellabeat, a high-tech company that manufactures health-focused smart products. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women. 
+
+In an era of ever-evolving wearable technology and smart devices, the quantified self is becoming increasingly popular. Users are empowered with devices that track various aspects of their daily lives, from physical activity and sleep patterns to heart rate and calorie expenditure. The Activity Metrics Analysis project delves into this rich source of data to uncover valuable insights into human behavior, health, and the intricate relationships between different activity factors.
+
+### Why Activity Metrics Matter
+
+Physical activity and health are intricately connected. How we move, rest, and exercise profoundly impacts our overall well-being. These metrics, often collected passively through smart devices, offer a window into our daily routines, habits, and even potential health risks. Understanding and interpreting these data points can provide individuals with the knowledge to make informed lifestyle choices and healthcare providers with valuable insights for patient care.
+
+### Project Objectives
+
+The primary aim of the Activity Metrics Analysis project is to harness the power of data-driven insights to improve health and well-being. Key objectives include:
+
+1. **Uncovering Behavioral Patterns:** Analyzing step counts, calorie burn, and heart rates to identify behavioral patterns and trends among users.
+   
+2. **Exploring Sleep-Activity Relationships:** Investigating how sleep duration and quality influence daily activity levels and calorie expenditure.
+   
+3. **Health Implications:** Exploring the relationships between different types of activities (e.g., sedentary, light, moderate, vigorous) and their potential health implications.
+   
+4. **Detecting Anomalies:** Employing data analytics to detect outliers and anomalies in the dataset, which could be indicative of underlying health conditions.
+
+By achieving these objectives, the Activity Metrics Analysis project aims to promote a holistic understanding of individual health and well-being based on data-driven insights.
+
+### Data Sources
+
+The project sources data from a variety of smart devices, including fitness trackers, smartwatches, and other wearable technology. These devices collect and record users' activity data, creating a comprehensive dataset for analysis. Before analysis begins, the dataset undergoes a rigorous preprocessing phase to ensure data accuracy and consistency.
+
+In the following sections, we will delve into the project's methodology, data analysis techniques, and key findings. We invite you to explore the fascinating world of activity metrics and their profound impact on our daily lives and health.
+
+
 ### Scenario
 You are a junior data analyst working on the marketing analyst team at Bellabeat, a high-tech manufacturer of health-focused products for women. Bellabeat is a successful small company, but they have the potential to become a larger player in the global smart device market. Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. You have been asked to focus on one of Bellabeat’s products and analyze smart device data to gain insight into how consumers are using their smart devices. The insights you discover will then help guide marketing strategy for the company. You will present your analysis to the Bellabeat executive team along with your high-level recommendations for Bellabeat’s marketing strategy.
 ### Business Task
