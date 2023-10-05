@@ -24,4 +24,4 @@ Health metrics encompass data related to users' physiological well-being and cal
 Time-based Data
 The dataset is structured with a time-based approach, recording data on both an hourly and daily basis. This temporal granularity enables time-series analysis, allowing for the exploration of how various metrics evolve over the course of a day or across different days.
 
-By harnessing this multi-faceted dataset, the Activity Metrics Analysis project aims to uncover patterns, trends, and correlations that provide valuable insights into users' behaviors, health, and overall well-being. These insights can inform lifestyle choices, personalized health recommendations, and the development of data-driven solutions to enhance individual health and quality of life.
+By harnessing this multi-faceted dataset, the Activity Metrics Analysis project aims to uncover patterns, trends, and correlations that provide valuable insights into users' behaviors, health, and overall well-being. These insights can inform lifestyle choices, personalized health recommendations, and the development of data-driven solutions to enhance individual health and quality of the life.
