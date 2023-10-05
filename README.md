@@ -33,6 +33,18 @@ Following three points are the questions needed to be answered by this analysis.
 2. How could these trends apply to Bellabeat customers?
 3. How could these trends help influence Bellabeat marketing strategy?
 
+## Data Preprocessing
+
+Before diving into the analysis, several preprocessing tasks were performed to clean and format the data:
+
+1. **Elimination of Duplicates and Data Type Correction:** Duplicate records were identified and removed to avoid data redundancy. Data types were corrected to ensure consistency and accuracy in further analysis.
+2. **Handling Outliers and Anomalies:** Outliers, which can skew results, were carefully identified and dealt with. Anomalies that could result from errors or inconsistencies in data collection were addressed to maintain data integrity.
+3. **Merging Relevant Datasets:** Different datasets related to physical activity, sleep patterns, health metrics, and time-based data were merged where necessary. This consolidation allowed for a comprehensive analysis across multiple dimensions.
+4. **Creation of Derived Features:** New features were generated based on existing data to provide more insights. Aggregation of data, feature engineering, and calculations were performed to create meaningful derived features.
+
+These preprocessing steps ensure that the data used for analysis is clean, consistent, and ready for in-depth exploration and interpretation.
+**Note:** Detailed information regarding specific preprocessing tasks and their outcomes can be found in the subsequent sections of this documentation.
+
 ## Prepare
 To answer Bellabeat's business tasks I will be using [FitBit Fitness Tracker Data](https://www.kaggle.com/arashnic/fitbit) (CC0: Public Domain, dataset made available through [Mobius](https://www.kaggle.com/arashnic)): This Kaggle data set contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
 #### Considerations
