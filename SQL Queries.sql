@@ -52,7 +52,7 @@ SELECT * FROM MET;
 -- Checking users insigths
 SELECT 
     COUNT(NumberTimesUse) AS Users,
-    ROUND((COUNT(NumberTimesUse) / 33) * 100, 2) AS PrecentageOfUsers,
+    ROUND((COUNT(NumberTimesUse) / 33.0) * 100, 2) AS PrecentageOfUsers,
     NumberTimesUse
 FROM
     (SELECT 
