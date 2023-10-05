@@ -12,11 +12,8 @@ Physical activity and health are intricately connected. How we move, rest, and e
 The primary aim of the Activity Metrics Analysis project is to harness the power of data-driven insights to improve health and well-being. Key objectives include:
 
 1. **Uncovering Behavioral Patterns:** Analyzing step counts, calorie burn, and heart rates to identify behavioral patterns and trends among users.
-   
 2. **Exploring Sleep-Activity Relationships:** Investigating how sleep duration and quality influence daily activity levels and calorie expenditure.
-   
 3. **Health Implications:** Exploring the relationships between different types of activities (e.g., sedentary, light, moderate, vigorous) and their potential health implications.
-   
 4. **Detecting Anomalies:** Employing data analytics to detect outliers and anomalies in the dataset, which could be indicative of underlying health conditions.
 
 By achieving these objectives, the Activity Metrics Analysis project aims to promote a holistic understanding of individual health and well-being based on data-driven insights.
