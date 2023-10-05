@@ -20,9 +20,7 @@ By achieving these objectives, the Activity Metrics Analysis project aims to pro
 
 ### Data Sources
 
-The project sources data from a variety of smart devices, including fitness trackers, smartwatches, and other wearable technology. These devices collect and record users' activity data, creating a comprehensive dataset for analysis. Before analysis begins, the dataset undergoes a rigorous preprocessing phase to ensure data accuracy and consistency.
-
-In the following sections, we will delve into the project's methodology, data analysis techniques, and key findings. We invite you to explore the fascinating world of activity metrics and their profound impact on our daily lives and health.
+The project sources data from a variety of smart devices, including fitness trackers, smartwatches, and other wearable technology. These devices collect and record users' activity data, creating a comprehensive dataset for analysis. Before analysis begins, the dataset undergoes a rigorous preprocessing phase to ensure data accuracy and consistency. In the following sections, we will delve into the project's methodology, data analysis techniques, and key findings. We invite you to explore the fascinating world of activity metrics and their profound impact on our daily lives and health.
 
 
 ### Scenario
