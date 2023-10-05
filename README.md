@@ -3,6 +3,8 @@
 
 In an era of ever-evolving wearable technology and smart devices, the quantified self is becoming increasingly popular. Users are empowered with devices that track various aspects of their daily lives, from physical activity and sleep patterns to heart rate and calorie expenditure. The Activity Metrics Analysis project delves into this rich source of data to uncover valuable insights into human behavior, health, and the intricate relationships between different activity factors.
 
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/fd1f615b3aa77d3da602ff8ef8227593090b512d/Activity%20Metrics%20Analysis%20-%20Image.png)
+
 ### Why Activity Metrics Matter
 
 Physical activity and health are intricately connected. How we move, rest, and exercise profoundly impacts our overall well-being. These metrics, often collected passively through smart devices, offer a window into our daily routines, habits, and even potential health risks. Understanding and interpreting these data points can provide individuals with the knowledge to make informed lifestyle choices and healthcare providers with valuable insights for patient care.
