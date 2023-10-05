@@ -18,6 +18,8 @@ CREATE TABLE Daily_Activity (
 	Day VARCHAR(50)
 );
 
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/fd1f615b3aa77d3da602ff8ef8227593090b512d/Activity%20Metrics%20Analysis%20-%20Image.png)
+
 -- Creating Table 'Sleep'
 CREATE TABLE Sleep (
     Id VARCHAR(50),
