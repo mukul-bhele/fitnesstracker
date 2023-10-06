@@ -263,6 +263,14 @@ FROM
 GROUP BY a.Id
 ORDER BY AvgCalories DESC;
 ````
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/98ac495e2c3ba4965a482a9390fa52a909ce9bd7/SQL%20Visualisations/Correlation%20(Plot).png)
+**Results :** [Google Sheet](https://docs.google.com/spreadsheets/d/1rSaaC5eZldGDAPg4DMMR5GGgBAg_xHKmQXVg3iHu97w/edit?usp=sharing) \
+**What does the Pearson Correlation Coefficient (r) indicate?**
+ - The average of total minutes asleep shows a moderate negative correlation with the average of sedentary minutes.
+ - There is no correlation between the average of calories and the average of sedentary minutes.
+ - The average of very active minutes exhibits a strong positive correlation with the average of total steps.
+ - The average of total minutes asleep demonstrates a weak negative correlation with the average of total steps.
+ - The average of calories displays a moderate positive correlation with the average of total steps.
 ## Comparison (Activities & Calories)
 ````sql
 -- Comparison (Activities & Calories)
