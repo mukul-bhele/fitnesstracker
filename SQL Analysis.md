@@ -283,6 +283,14 @@ SUM(Calories) as total_calories
 From Daily_Activity
 Group By Id
 ````
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/4d6e61dbc19aedf0ea8f877c2af08aa3a04f194f/SQL%20Visualisations/Comparison%20(Activities%20%26%20Calories).png)
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/c1bd92294daedf8bbf7b960d549d90d1ffee95b8/SQL%20Visualisations/Comparison%20(Activities%20%26%20Calories%20-%20Plot).png)
+**Key Findings:**
+- The R-Squared value for the Low Active graph is 0.0118.
+- The R-Squared value for the Fairly Active graph is 0.0391.
+- The R-Squared value for the Very Active graph is 0.3865.
+- There exists a robust correlation between Very Active minutes and the calorie expenditure. The R-Squared value appears to increase with higher activity intensity and duration. In summary, as indicated by the R-Squared values of the respective trend lines, greater activity intensity and duration result in a higher calorie burn.
+  
 ## Comparison (Sleep & Calories)
 ````sql
 -- Comparison (Sleep & Calories)
@@ -294,12 +302,27 @@ Inner Join Sleep as temp2
 ON temp1.Id = temp2.Id and temp1.ActivityDate = temp2.SleepDay
 Group By temp1.Id
 ````
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/0da67b595721bb22bdd9f0cff31b8ede80a7f927/SQL%20Visualisations/Comparison%20(Sleep%20%26%20Calories).png)
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/0da67b595721bb22bdd9f0cff31b8ede80a7f927/SQL%20Visualisations/Comparison%20(Sleep%20%26%20Calories%20-Plot).png)
+**Key Findings:**
+- The R-Squared value stands at 0.8727.
+- A substantial positive correlation is evident between the duration of sleep and calorie expenditure.
+- Increased sleep duration correlates with higher calorie burn. Optimal sleep duration and quality contribute to increased calorie expenditure during sleep. However, exceeding the recommended range does not result in additional calorie burn; instead, it leads to a reduction in calories burned.
+
 ## Comparison of Average MET and Calories Burned Over Time
 This SQL code performs an inner join between two tables: 'MET' (aliased as 'temp1') and 'Daily_Activity' (aliased as 'temp2').
 It retrieves distinct records based on the user ID (temp1.Id), activity date (temp1.ActivityDate), and calculates the
 sum of METs (Metabolic Equivalent of Task) as 'sum_mets' and the corresponding calories burned (temp2.Calories). The
 results are grouped by user ID, activity date, and calories. The OFFSET and FETCH FIRST clauses limit the result
 set to the first 10 rows ordered by activity date.
+
+**Metabolic Equivalent of Task (MET)**
+The metabolic equivalent of task (MET) is the objective measure of the ratio of the rate at which a person expends energy, relative to the mass of that person, while performing some specific physical activity compared to a reference, set by convention at 3.5 mL of oxygen per kilogram per minute, which is roughly equivalent to the energy expended when sitting quietly. MET: The ratio of the work metabolic rate to the resting metabolic rate. One MET is defined as 1 kcal/kg/hour and is roughly equivalent to the energy cost of sitting quietly. A MET also is defined as oxygen uptake in ml/kg/min with one MET equal to the oxygen cost of sitting quietly, equivalent to 3.5 ml/kg/min. The MET concept was primarily designed to be used in epidemiological surveys, where survey respondents answer the amount of time they spend for specific physical activities. MET is used to provide general medical thresholds and guidelines to a population. A MET is the ratio of the rate of energy expended during an activity to the rate of energy expended at rest. For example, 1 MET is the rate of energy expenditure while at rest. A 4 MET activity expends 4 times the energy used by the body at rest. If a person does a 4 MET activity for 30 minutes, he or she has done 4 x 30 = 120 MET-minutes (or 2.0 MET-hours) of physical activity. A person could also achieve 120 MET-minutes by doing an 8 MET activity for 15 minutes.
+
+To calculate the amount of calories burned per minute, we can use the formula:
+
+Calories burned per minute = (METs x 3.5 x (your body weight in Kg)) / 200
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/93b564d62a2efb3bed91c3972c3bb69f95b3a6e8/SQL%20Visualisations/MET%20Variations.png)
 ````sql
 -- Average MET per day per use and Comparison with the calories burned
 Select Distinct temp1.Id, temp1.ActivityDate, sum(temp1.METs) as sum_mets, temp2.Calories
