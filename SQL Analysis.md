@@ -333,3 +333,9 @@ Group By temp1.Id, temp1.ActivityDate, temp2.Calories
 Order by ActivityDate
 OFFSET 0 ROWS FETCH FIRST 10 ROWS ONLY
 ````
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/a2267052fc7c6b697427e2c5c7e4dbc4a19bc660/SQL%20Visualisations/METs%20%26%20Calories.png)
+![image](https://github.com/mukul-bhele/fitnesstracker/blob/a2267052fc7c6b697427e2c5c7e4dbc4a19bc660/SQL%20Visualisations/METs%20%26%20Calories%20Plot.png)
+**Key Findings:**
+ - The R-Squared value is 0.5504
+ - There is a substantial positive correlation between METs and the average calories burned.
+ - The amount of calories burned by each user is significantly influenced by their daily MET values. This is evident from the high R-squared value, indicating a robust relationship between the trend line and the data points.
